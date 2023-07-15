@@ -1,0 +1,12 @@
+@startuml
+
+database "players"
+[PlayerJpaRepository] -("players"
+getReferenceById - [PlayerJpaRepository]
+
+[PlayerService] -(getReferenceById
+getPlayerById - [PlayerService]
+
+[PlayerController] -(getPlayerById
+
+@enduml

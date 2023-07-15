@@ -1,0 +1,11 @@
+@startuml
+
+class Player{
+    Long id
+    String userName
+    String password
+    String email
+    String avatar
+    LocalDateTime lastLoginDate
+    }
+@enduml

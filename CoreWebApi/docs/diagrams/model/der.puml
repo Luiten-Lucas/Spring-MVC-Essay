@@ -1,0 +1,16 @@
+@startuml
+hide Circle
+
+skinparam linetype ortho
+
+entity "players"{
+    @ id : number <<generated>>
+    user_name : varchar
+    password : varchar
+    email : varchar
+    avatar : varchar
+    last_login : datetime
+    created_at : datetime
+    updated_at : datetime
+    }
+@enduml
